@@ -1,7 +1,7 @@
 var editor;
 
 self.port.on('list-addon', function (data) {
-	var contents = document.getElementById('contents');
+	var contents = document.getElementById('addon-list');
 
 	var listing = document.createElement('p');
 
@@ -36,7 +36,17 @@ self.port.on('get-json', function(data) {
 	document.getElementById('save-json').addEventListener('click', function (e) {
  		var json = editor.get();
  
- 		// TODO
+ 		var result = confirm('In order to save simple-storage for an addon,\n' +
+ 							  'the addon will be disabled, new json will be \n' +
+ 							  'saved and the addon will be re-enabled.\n\n' +
+ 							  'Press OK to allow, Cancel to stop.');
+
+ 		if (result == true) {
+	 		self.port.emit('send-ss', {
+	 			id: data.id,
+	 			json: json
+	 		});
+	 	}
 
 		e.preventDefault();
 	});
