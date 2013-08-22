@@ -1,12 +1,12 @@
-Simple Storage Editor for Firefox Add-ons 
-=========================================
-
-What does it do?
-----------------
+Simple Storage Editor
+=====================
 Simple Storage Editor is a [Firefox Add-on SDK simple storage]
 (https://addons.mozilla.org/en-US/developers/docs/sdk/latest/modules/sdk/simple-storage.html)
 viewer and editor Firefox add-on.
 
+
+What does it do?
+----------------
 SSE lists currently installed add-ons that use simple storage and allows the user to edit the contents of the storage.
 
 
