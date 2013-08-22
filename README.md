@@ -1,18 +1,20 @@
-Simple Storage Editor for Firefox Addons 
-========================================
+Simple Storage Editor for Firefox Add-ons 
+=========================================
 
 What does it do?
 ----------------
-The addon lists currently installed addons that use [Addon SDK simple storage]
+Simple Storage Editor is a [Firefox Add-on SDK simple storage]
 (https://addons.mozilla.org/en-US/developers/docs/sdk/latest/modules/sdk/simple-storage.html)
-and allows the user to edit the contents of the storage.
+viewer and editor Firefox add-on.
+
+SSE lists currently installed add-ons that use simple storage and allows the user to edit the contents of the storage.
 
 
 Why?
 ----
-Because Firefox allows a convinince method of editing preferences through about:config, but 
-there is nothing to edit simple storage created by addons. This is especially convinient for 
-mobile device testing and development.
+Firefox provides a convenient way to edit preferences through about:config, but no way
+to edit simple storage created by add-ons. Having quick access to simple storage would be especially useful for 
+mobile testing and development.
 
 
 License
@@ -27,7 +29,7 @@ How to file an issue
 You may file an issue using GitHub's own issue tracker: https://github.com/ghostery/addon-simple-storage-editor/issues
 
 
-How to submit a fix/pull-request
+How to submit a fix/pull request
 --------------------------------
 You may fork the project and modify at will. Your changes may be submitted back to us via a GitHub's pull
 request.
