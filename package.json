@@ -4,7 +4,7 @@
   "id": "jid1-rZLunqbwARiMVQ",
   "icon": "data/images/sse.png",
   "description": "Addon designed for in browser editing of Simple Storage for Addons",
-  "author": "",
-  "license": "MPL 2.0",
-  "version": "0.1"
+  "author": "felix@ghostery.com",
+  "license": "Apache License, Version 2",
+  "version": "0.2"
 }
