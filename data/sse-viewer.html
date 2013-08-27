@@ -3,8 +3,9 @@
 
 <head>
 	<title>Simple Storage Editor</title>
-
-<style>
+	<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+	<meta content="utf-8" http-equiv="encoding">
+	<style>
 body {
     margin-left: 5%;
     margin-right: 5%;
@@ -14,8 +15,8 @@ body {
 .major-section {
     font-size: large;
     font-weight: bold;
+    margin-top: 0em;
     margin-bottom: 1em;
-    margin-top: 2em;
     text-align: start;
 }
 
@@ -43,8 +44,7 @@ body {
     text-align: start;
     width: 100%;
 }
-
-</style>
+	</style>
 
 </head>
 
@@ -68,7 +68,7 @@ body {
 	<div id="editor" style="display:none;">
 		<h2 class="major-section">Viewing simple storage for <span id="editor-addon-name"></span></h2>
 
-		<div id="json-editor" style="width: 100%; height: 600px;"></div>
+		<div id="json-editor" style="width: 100%; height:500px;"></div>
 		<button id="save-json">Save Changes</button>
 		<button id="cancel">Back</button>
 	</div>

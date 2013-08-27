@@ -63,6 +63,13 @@ self.port.on('get-json', function(data) {
 	document.getElementById('editor').style.display = '';
 
 	var container = document.getElementById('json-editor');
+	var height = window.innerHeight;
+
+	if (height <= 300) {
+		container.style.height = '300px';
+	} else {
+		container.style.height = (height - 100) + 'px';
+	}
 
 	if (!editor) {
 		editor = new jsoneditor.JSONEditor(container);
