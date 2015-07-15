@@ -1,11 +1,15 @@
 {
   "name": "addon-simple-storage-editor",
   "fullName": "Simple Storage Editor for Addon SDK",
-  "id": "jid1-rZLunqbwARiMVQ",
+  "id": "jid1-rZLunqbwARiMVQ@jetpack",
   "icon": "data/images/icon.png",
   "icon64": "data/images/icon64.png",
   "description": "Addon designed for in browser editing of Simple Storage for Addons",
   "author": "felix@ghostery.com",
-  "license": "Apache License, Version 2",
-  "version": "0.2"
+  "contributors": [
+    "Benjamin Menant <dev@menant-benjamin.fr>"
+  ],
+  "license": "Apache-2.0",
+  "version": "0.3.0",
+  "main": "lib/main.js"
 }
